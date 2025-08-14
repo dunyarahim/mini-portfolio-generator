@@ -2,7 +2,7 @@
 
 A simple, vanilla JavaScript project that builds a personal portfolio website from a structured data.json file. No backend, no frameworks — just HTML, CSS, and JavaScript.
 
-✨ Features
+✨ **Features**
 
 • Generates your portfolio content automatically from data.json.
 
@@ -16,7 +16,7 @@ A simple, vanilla JavaScript project that builds a personal portfolio website fr
 
 • Easily deployable via GitHub Pages.
 
-📂 Project Structure
+📂 **Project Structure**
 
 index.html   # Main page template
 
@@ -26,13 +26,13 @@ script.js    # Logic to fetch and render data
 
 data.json    # Your personal information and content
 
-🚀 Getting Started
+🚀 **Getting Started**
 
 Clone this repo:
 git clone https://github.com/dunyarahim/mini-portfolio-generator.git
 
 
-Customize your portfolio:
+**Customize your portfolio:** 
 
 • Edit data.json with your own name, skills, projects, and contact info.
 
@@ -49,6 +49,6 @@ Deploy to GitHub Pages:
 
 • Enable Pages in Settings → Pages → Branch: main → root.
 
-🖼 Live Demo
+🖼 **Live Demo**
 
 [View Portfolio](https://dunyarahim.github.io/mini-portfolio-generator/)
