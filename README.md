@@ -19,8 +19,11 @@ A simple, vanilla JavaScript project that builds a personal portfolio website fr
 📂 Project Structure
 
 index.html   # Main page template
+
 style.css    # Styling and layout
+
 script.js    # Logic to fetch and render data
+
 data.json    # Your personal information and content
 
 🚀 Getting Started
@@ -48,4 +51,4 @@ Deploy to GitHub Pages:
 
 🖼 Live Demo
 
-View Portfolio
+[View Portfolio](https://dunyarahim.github.io/mini-portfolio-generator/)
