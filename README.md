@@ -3,6 +3,7 @@
 A simple, vanilla JavaScript project that builds a personal portfolio website from a structured data.json file. No backend, no frameworks — just HTML, CSS, and JavaScript.
 
 ✨ Features
+
 • Generates your portfolio content automatically from data.json.
 
 • Sections for About, Skills, Projects, Experience, and Contact.
@@ -16,6 +17,7 @@ A simple, vanilla JavaScript project that builds a personal portfolio website fr
 • Easily deployable via GitHub Pages.
 
 📂 Project Structure
+
 index.html   # Main page template
 style.css    # Styling and layout
 script.js    # Logic to fetch and render data
