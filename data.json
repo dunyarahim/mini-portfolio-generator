@@ -19,7 +19,7 @@
       "description": "Analyzes engagement trends (likes, comments) from CSV using SQLite and Matplotlib.",
       "tags": ["Python", "SQLite", "Matplotlib", "CLI"],
       "links": [
-        { "label": "Repo", "href": "https://github.com/dunyarahim/pinterest-engagement-cli" }
+        { "label": "Repo", "href": "https://github.com/dunyarahim/Pinterest.py-Python-" }
       ]
     },
     {
