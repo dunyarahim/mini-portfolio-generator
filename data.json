@@ -1,0 +1,33 @@
+{
+  "name": "Your Name",
+  "tagline": "Web Developer • Designer",
+  "avatar": "https://placehold.co/200x200",
+  "about": "Short bio goes here. Passionate about building useful things.",
+  "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS"],
+  "links": [
+    { "label": "GitHub", "href": "https://github.com/username" },
+    { "label": "LinkedIn", "href": "https://linkedin.com/in/username" }
+  ],
+  "projects": [
+    {
+      "name": "Mini Portfolio Generator",
+      "description": "Generates a portfolio site from JSON.",
+      "tags": ["Vanilla JS", "Automation"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/username/mini-portfolio-generator" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Information Science Student",
+      "company": "University Name",
+      "start": "2022",
+      "end": "2025",
+      "summary": "Coursework in databases, web dev, and analytics."
+    }
+  ],
+  "contact": [
+    { "label": "Email", "href": "mailto:email@example.com" }
+  ]
+}
