@@ -1,6 +1,6 @@
 # mini-portfolio-generator
 
-A simple, vanilla JavaScript project that builds a personal portfolio website from a structured data.json file. No backend, no frameworks — just HTML, CSS, and JavaScript.
+A simple, vanilla JavaScript project that builds a personal portfolio website from a structured data.json file. No backend, no frameworks, only HTML, CSS, and JavaScript.
 
 ✨ **Features**
 
