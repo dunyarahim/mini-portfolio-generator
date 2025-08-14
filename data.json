@@ -2,7 +2,7 @@
   "name": "Dunya Rahim",
   "tagline": "Web Developer • Designer",
   "avatar": "https://avatars.githubusercontent.com/u/205037613?v=4",
-  "about": "I’m an Information Science student at the University of Maryland who enjoys JS and data.\n\nCurrently building small tools and learning product thinking.",
+  "about": "I’m an Information Science student at the University of Maryland with a passion for turning ideas into real, working products. My background blends web development, data analysis, and problem-solving, from building responsive sites to analyzing 300k+ data records in SQL.\n\nI’ve created tools like a Pinterest Engagement CLI for data visualization, a TaskTrackr command-line app for productivity, and SQL projects uncovering local crime trends. These projects not only sharpened my technical skills in JavaScript, Python, and databases, but also taught me how to design user-friendly experiences and write clean, maintainable code.\n\nBeyond coding, I enjoy experimenting with new tech, learning product thinking, and finding ways to make digital experiences both useful and visually appealing. I’m always looking for challenges that push me to grow, whether it’s integrating APIs, optimizing database queries, or creating something from scratch that people actually want to use.",
   "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS", "GitHub", "Database management"],
   "links": [
     { "label": "GitHub", "href": "https://github.com/dunyarahim" },
@@ -31,6 +31,15 @@
       "tags": ["SQL", "Data Analysis", "ERD", "Normalization"],
       "links": [
         { "label": "Repo", "href": "https://github.com/dunyarahim/moco-crime-sql" }
+      ]
+    },
+    {
+      "name": "Mini Portfolio Generator",
+      "description": "A personal portfolio website built with vanilla JS, HTML, and CSS, generating all content from a JSON file. Fully responsive and hosted with GitHub Pages.",
+      "tags": ["JavaScript", "HTML", "CSS", "GitHub Pages"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/dunyarahim/mini-portfolio-generator" },
+        { "label": "Live", "href": "https://dunyarahim.github.io/mini-portfolio-generator/" }
       ]
     },
     {
@@ -66,7 +75,7 @@
     }
   ],
   "contact": [
-    { "label": "Email", "href": "dunyarahimm@gmail.com" },
+    { "label": "Email", "href": "mailto:dunyarahimm@gmail.com" },
     { "label": "Portfolio", "href": "https://dunyarahim.github.io/mini-portfolio-generator/" }
   ]
 }
