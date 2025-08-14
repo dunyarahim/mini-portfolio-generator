@@ -52,7 +52,7 @@
       "description": "API-based CLI that fetches and prints a five-day forecast using OpenWeatherMap.",
       "tags": ["Python", "API", "HTTP", "JSON"],
       "links": [
-        { "label": "Repo", "href": "https://github.com/dunyarahim/weather-cli" }
+        { "label": "Repo", "href": "https://github.com/dunyarahim/5-Day-Weather-Forecast-Python-" }
       ]
     }
   ],
