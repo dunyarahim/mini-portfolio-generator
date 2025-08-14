@@ -3,7 +3,7 @@
   "tagline": "Web Developer • Designer",
   "avatar": "https://avatars.githubusercontent.com/u/205037613?v=4",
   "about": "I’m an Information Science student at the University of Maryland with a passion for turning ideas into real, working products. My background blends web development, data analysis, and problem-solving, from building responsive sites to analyzing 300k+ data records in SQL.\n\nI’ve created tools like a Pinterest Engagement CLI for data visualization, a TaskTrackr command-line app for productivity, and SQL projects uncovering local crime trends. These projects not only sharpened my technical skills in JavaScript, Python, and databases, but also taught me how to design user-friendly experiences and write clean, maintainable code.\n\nBeyond coding, I enjoy experimenting with new tech, learning product thinking, and finding ways to make digital experiences both useful and visually appealing. I’m always looking for challenges that push me to grow, whether it’s integrating APIs, optimizing database queries, or creating something from scratch that people actually want to use.",
-  "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS", "GitHub", "Database management"],
+  "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS", "GitHub", "Database management", "JSON", "Data Visualization"],
   "links": [
     { "label": "GitHub", "href": "https://github.com/dunyarahim" },
     { "label": "LinkedIn", "href": "https://www.linkedin.com/in/dunya-rahim/" }
