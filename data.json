@@ -1,12 +1,12 @@
 {
-  "name": "Your Name",
+  "name": "Dunya Rahim",
   "tagline": "Web Developer • Designer",
   "avatar": "https://placehold.co/200x200",
-  "about": "Short bio goes here. Passionate about building useful things.",
-  "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS"],
+  "about": "I’m an Information Science student at the University of Maryland who enjoys JS and data.\n\nCurrently building small tools and learning product thinking.",.",
+  "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS", "GitHub", "Database managment"],
   "links": [
-    { "label": "GitHub", "href": "https://github.com/username" },
-    { "label": "LinkedIn", "href": "https://linkedin.com/in/username" }
+    { "label": "GitHub", "href": "https://github.com/dunyarahim" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/dunya-rahim/" }
   ],
   "projects": [
     {
@@ -28,6 +28,6 @@
     }
   ],
   "contact": [
-    { "label": "Email", "href": "mailto:email@example.com" }
+    { "label": "Email", "href": "dunyarahimm@gmail.com" }
   ]
 }
