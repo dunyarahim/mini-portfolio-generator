@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mini Portfolio</title>
-  <meta name="description" content="Auto‑generated portfolio from JSON data" />
+  <meta name="description" content="Auto-generated portfolio from JSON data" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <!-- NOTE: your repo uses style.css (singular) -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
@@ -64,60 +65,31 @@
     </div>
   </footer>
 
-  <!-- Optional inline data fallback for local file preview (no server) -->
+  <!-- Optional inline fallback: only used if data.json can't be fetched -->
   <script type="application/json" id="portfolio-data">
   {
     "name": "Your Name",
-    "tagline": "Developer • Designer • Do‑it‑all",
-    "avatar": "https://avatars.githubusercontent.com/u/9919?s=200&v=4",
-    "about": "Short bio goes here. Passionate about building useful things.",
-    "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS"],
+    "tagline": "Web Developer • Info Science",
+    "avatar": "https://placehold.co/128x128",
+    "about": "Short bio here.",
+    "skills": ["JavaScript","Python","HTML","CSS"],
     "links": [
-      { "label": "GitHub", "href": "https://github.com/yourname" },
-      { "label": "LinkedIn", "href": "https://linkedin.com/in/yourname" },
-      { "label": "Website", "href": "https://yourname.dev" }
+      { "label": "GitHub", "href": "https://github.com/username" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/username" }
     ],
     "projects": [
-      {
-        "name": "Mini Portfolio Generator",
-        "description": "Generates a portfolio site from JSON.",
-        "tags": ["Vanilla JS", "Automation"],
-        "links": [
-          { "label": "Repo", "href": "https://github.com/yourname/mini-portfolio-generator" },
-          { "label": "Live", "href": "https://yourname.github.io/mini-portfolio-generator" }
-        ]
-      },
-      {
-        "name": "Pinterest Analytics CLI",
-        "description": "CLI that analyzes engagement from CSV.",
-        "tags": ["Python", "Data"],
-        "links": [
-          { "label": "Repo", "href": "https://github.com/yourname/pinterest-analytics-cli" }
-        ]
-      }
+      { "name": "Mini Portfolio Generator", "description": "Generates a portfolio from JSON.", "tags": ["Vanilla JS"], "links": [{ "label": "Repo", "href": "#" }] }
     ],
     "experience": [
-      {
-        "role": "Product Engineer",
-        "company": "Seal",
-        "start": "2024",
-        "end": "Present",
-        "summary": "Shipped features across the stack with a focus on UX and reliability."
-      },
-      {
-        "role": "Information Science Student",
-        "company": "UMD",
-        "start": "2022",
-        "end": "2025",
-        "summary": "Coursework in databases, web dev, and analytics."
-      }
+      { "role": "Information Science Student", "company": "UMD", "start": "2022", "end": "2025", "summary": "Databases, web dev, analytics." }
     ],
     "contact": [
-      { "label": "Email", "href": "mailto:you@example.com" },
-      { "label": "Resume", "href": "https://yourname.dev/resume.pdf" }
+      { "label": "Email", "href": "mailto:you@example.com" }
     ]
   }
   </script>
+
+  <!-- Make sure this file exists at the repo root -->
   <script src="script.js"></script>
 </body>
 </html>
