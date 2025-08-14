@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Portfolio</title>
+  <meta name="description" content="Auto‑generated portfolio from JSON data" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img id="avatar" class="avatar" alt="Profile avatar" />
+        <div>
+          <h1 id="name" class="brand-name"></h1>
+          <p id="tagline" class="brand-tag"></p>
+          <nav id="links" class="brand-links" aria-label="Social links"></nav>
+        </div>
+      </div>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p id="about-text"></p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul id="skills-list" class="chips" aria-label="Skills"></ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div id="projects-grid" class="grid"></div>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <ul id="experience-timeline" class="timeline"></ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <ul id="contact-list" class="contact"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> <span id="name-footer"></span>. Built with mini-portfolio-generator.</small>
+    </div>
+  </footer>
+
+  <!-- Optional inline data fallback for local file preview (no server) -->
+  <script type="application/json" id="portfolio-data">
+  {
+    "name": "Your Name",
+    "tagline": "Developer • Designer • Do‑it‑all",
+    "avatar": "https://avatars.githubusercontent.com/u/9919?s=200&v=4",
+    "about": "Short bio goes here. Passionate about building useful things.",
+    "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS"],
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/yourname" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/yourname" },
+      { "label": "Website", "href": "https://yourname.dev" }
+    ],
+    "projects": [
+      {
+        "name": "Mini Portfolio Generator",
+        "description": "Generates a portfolio site from JSON.",
+        "tags": ["Vanilla JS", "Automation"],
+        "links": [
+          { "label": "Repo", "href": "https://github.com/yourname/mini-portfolio-generator" },
+          { "label": "Live", "href": "https://yourname.github.io/mini-portfolio-generator" }
+        ]
+      },
+      {
+        "name": "Pinterest Analytics CLI",
+        "description": "CLI that analyzes engagement from CSV.",
+        "tags": ["Python", "Data"],
+        "links": [
+          { "label": "Repo", "href": "https://github.com/yourname/pinterest-analytics-cli" }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "role": "Product Engineer",
+        "company": "Seal",
+        "start": "2024",
+        "end": "Present",
+        "summary": "Shipped features across the stack with a focus on UX and reliability."
+      },
+      {
+        "role": "Information Science Student",
+        "company": "UMD",
+        "start": "2022",
+        "end": "2025",
+        "summary": "Coursework in databases, web dev, and analytics."
+      }
+    ],
+    "contact": [
+      { "label": "Email", "href": "mailto:you@example.com" },
+      { "label": "Resume", "href": "https://yourname.dev/resume.pdf" }
+    ]
+  }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
