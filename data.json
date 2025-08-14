@@ -35,7 +35,7 @@
       "description": "SQL analysis of 300k+ records to find trends by ZIP, agency, and crime type; led ERD design and normalization.",
       "tags": ["SQL", "Data Analysis", "ERD", "Normalization"],
       "links": [
-        { "label": "Repo", "href": "https://github.com/dunyarahim/moco-crime-sql" }
+        { "label": "Repo", "href": "https://github.com/dunyarahim/MoCo-Crime-Rate-SQL-" }
       ]
     },
     {
