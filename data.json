@@ -1,33 +1,72 @@
 {
   "name": "Dunya Rahim",
   "tagline": "Web Developer • Designer",
-  "avatar": "https://placehold.co/200x200",
-  "about": "I’m an Information Science student at the University of Maryland who enjoys JS and data.\n\nCurrently building small tools and learning product thinking.",.",
-  "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS", "GitHub", "Database managment"],
+  "avatar": "https://avatars.githubusercontent.com/u/205037613?v=4",
+  "about": "I’m an Information Science student at the University of Maryland who enjoys JS and data.\n\nCurrently building small tools and learning product thinking.",
+  "skills": ["JavaScript", "Python", "SQL", "HTML", "CSS", "GitHub", "Database management"],
   "links": [
     { "label": "GitHub", "href": "https://github.com/dunyarahim" },
     { "label": "LinkedIn", "href": "https://www.linkedin.com/in/dunya-rahim/" }
   ],
   "projects": [
     {
-      "name": "Mini Portfolio Generator",
-      "description": "Generates a portfolio site from JSON.",
-      "tags": ["Vanilla JS", "Automation"],
+      "name": "Pinterest Engagement CLI",
+      "description": "Analyzes engagement trends (likes, comments) from CSV using SQLite and Matplotlib.",
+      "tags": ["Python", "SQLite", "Matplotlib", "CLI"],
       "links": [
-        { "label": "Repo", "href": "https://github.com/username/mini-portfolio-generator" }
+        { "label": "Repo", "href": "https://github.com/dunyarahim/pinterest-engagement-cli" }
+      ]
+    },
+    {
+      "name": "TaskTrackr (CLI)",
+      "description": "Command-line to-do tracker with priorities and due dates using argparse and JSON; includes unit tests.",
+      "tags": ["Python", "CLI", "Argparse", "JSON", "Testing"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/dunyarahim/tasktrackr" }
+      ]
+    },
+    {
+      "name": "Montgomery County Crime SQL Analysis",
+      "description": "SQL analysis of 300k+ records to find trends by ZIP, agency, and crime type; led ERD design and normalization.",
+      "tags": ["SQL", "Data Analysis", "ERD", "Normalization"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/dunyarahim/moco-crime-sql" }
+      ]
+    },
+    {
+      "name": "5-Day Weather Forecast CLI",
+      "description": "API-based CLI that fetches and prints a five-day forecast using OpenWeatherMap.",
+      "tags": ["Python", "API", "HTTP", "JSON"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/dunyarahim/weather-cli" }
       ]
     }
   ],
   "experience": [
     {
-      "role": "Information Science Student",
-      "company": "University Name",
-      "start": "2022",
-      "end": "2025",
-      "summary": "Coursework in databases, web dev, and analytics."
+      "role": "Entry Level Web Developer",
+      "company": "Sedaro",
+      "start": "Mar 2024",
+      "end": "Dec 2024",
+      "summary": "Built responsive web interfaces and integrated APIs; provided technical support and basic troubleshooting; collaborated with backend developers and contributed to process efficiency."
+    },
+    {
+      "role": "Research Intern",
+      "company": "Library of Congress",
+      "start": "Jun 2023",
+      "end": "Aug 2023",
+      "summary": "Conducted research on digital collections focused on metadata standards and digital preservation; performed data analysis to evaluate archival methods."
+    },
+    {
+      "role": "IT Support Intern",
+      "company": "Montgomery College",
+      "start": "Aug 2021",
+      "end": "Dec 2021",
+      "summary": "Troubleshot hardware and software issues; supported IT systems management; improved user experience."
     }
   ],
   "contact": [
-    { "label": "Email", "href": "dunyarahimm@gmail.com" }
+    { "label": "Email", "href": "dunyarahimm@gmail.com" },
+    { "label": "Portfolio", "href": "https://dunyarahim.github.io/mini-portfolio-generator/" }
   ]
 }
