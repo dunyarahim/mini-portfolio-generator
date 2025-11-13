@@ -1,8 +1,8 @@
 {
   "name": "Dunya Rahim",
-  "tagline": "Web Developer • Designer",
+  "tagline": "Web Developer • Data Scientist • Designer ",
   "avatar": "https://avatars.githubusercontent.com/u/205037613?v=4",
-  "about": "I’m an Information Science student at the University of Maryland with a passion for turning ideas into real, working products. My background blends web development, data analysis, and problem-solving, from building responsive sites to analyzing 300k+ data records in SQL.\n\nI’ve created tools like a Pinterest Engagement CLI for data visualization, a TaskTrackr command-line app for productivity, and SQL projects uncovering local crime trends. These projects not only sharpened my technical skills in JavaScript, Python, and databases, but also taught me how to design user-friendly experiences and write clean, maintainable code.\n\nBeyond coding, I enjoy experimenting with new tech, learning product thinking, and finding ways to make digital experiences both useful and visually appealing. I’m always looking for challenges that push me to grow, whether it’s integrating APIs, optimizing database queries, or creating something from scratch that people actually want to use.",
+  "about": "I’m an Information Science student at the University of Maryland with a passion for using data and technology to build real, useful solutions. My experience ranges from creating responsive websites to analyzing 300k+ SQL records to uncover trends and insights.\n\nI’ve built tools like a Pinterest Engagement CLI for data visualization, a TaskTrackr command-line app, and large SQL projects focused on pattern analysis. Through these projects, I strengthened my skills in Python, SQL, JavaScript, and data processing while learning to design clean, user-friendly outputs.\n\nI enjoy exploring new tech, understanding how products are built, and making data easier to understand. I’m always looking for challenges that help me grow—whether it’s analyzing complex datasets, integrating APIs, or building something from scratch that solves a real problem.",
   "skills": {
     "Programming Languages": ["JavaScript", "Python", "SQL"],
     "Web & Tools": ["HTML", "CSS", "Responsive Design", "GitHub", "Version Control (Git)", "REST APIs", "JSON"],
@@ -24,63 +24,4 @@
     },
     {
       "name": "TaskTrackr (CLI)",
-      "description": "Command-line to-do tracker with priorities and due dates using argparse and JSON; includes unit tests.",
-      "tags": ["Python", "CLI", "Argparse", "JSON", "Testing"],
-      "links": [
-        { "label": "Repo", "href": "https://github.com/dunyarahim/tasktrackr" }
-      ]
-    },
-    {
-      "name": "Montgomery County Crime SQL Analysis",
-      "description": "SQL analysis of 300k+ records to find trends by ZIP, agency, and crime type; led ERD design and normalization.",
-      "tags": ["SQL", "Data Analysis", "ERD", "Normalization"],
-      "links": [
-        { "label": "Repo", "href": "https://github.com/dunyarahim/MoCo-Crime-Rate-SQL-" }
-      ]
-    },
-    {
-      "name": "Mini Portfolio Generator",
-      "description": "A personal portfolio website built with vanilla JS, HTML, and CSS, generating all content from a JSON file. Fully responsive and hosted with GitHub Pages.",
-      "tags": ["JavaScript", "HTML", "CSS", "GitHub Pages"],
-      "links": [
-        { "label": "Repo", "href": "https://github.com/dunyarahim/mini-portfolio-generator" },
-        { "label": "Live", "href": "https://dunyarahim.github.io/mini-portfolio-generator/" }
-      ]
-    },
-    {
-      "name": "5-Day Weather Forecast CLI",
-      "description": "API-based CLI that fetches and prints a five-day forecast using OpenWeatherMap.",
-      "tags": ["Python", "API", "HTTP", "JSON"],
-      "links": [
-        { "label": "Repo", "href": "https://github.com/dunyarahim/5-Day-Weather-Forecast-Python-" }
-      ]
-    }
-  ],
-  "experience": [
-    {
-      "role": "Data & IT Support Assistant",
-      "company": "University of Maryland, College Park",
-      "start": "April 2025",
-      "end": "September 2025",
-      "summary": "Worked with campus IT and data systems to support analytics tasks, troubleshoot technical issues, and assist with data processing and documentation for internal projects."
-    },
-    {
-      "role": "Research Intern",
-      "company": "Library of Congress",
-      "start": "Jun 2023",
-      "end": "Aug 2023",
-      "summary": "Conducted research on digital collections focused on metadata standards and digital preservation; performed data analysis to evaluate archival methods."
-    },
-    {
-      "role": "IT Support Intern",
-      "company": "Montgomery College",
-      "start": "Aug 2021",
-      "end": "Dec 2021",
-      "summary": "Troubleshot hardware and software issues; supported IT systems management; improved user experience."
-    }
-  ],
-  "contact": [
-    { "label": "Email", "href": "mailto:dunyarahimm@gmail.com" },
-    { "label": "Portfolio", "href": "https://dunyarahim.github.io/mini-portfolio-generator/" }
-  ]
-}
+      "description": "Comma
