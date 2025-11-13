@@ -24,4 +24,64 @@
     },
     {
       "name": "TaskTrackr (CLI)",
-      "description": "Comma
+      "description": "Command-line to-do tracker with priorities and due dates using argparse and JSON; includes unit tests.",
+      "tags": ["Python", "CLI", "Argparse", "JSON", "Testing"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/dunyarahim/tasktrackr" }
+      ]
+    },
+    {
+      "name": "Montgomery County Crime SQL Analysis",
+      "description": "SQL analysis of 300k+ records to find trends by ZIP, agency, and crime type; led ERD design and normalization.",
+      "tags": ["SQL", "Data Analysis", "ERD", "Normalization"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/dunyarahim/MoCo-Crime-Rate-SQL-" }
+      ]
+    },
+    {
+      "name": "Mini Portfolio Generator",
+      "description": "A personal portfolio website built with vanilla JS, HTML, and CSS, generating all content from a JSON file. Fully responsive and hosted with GitHub Pages.",
+      "tags": ["JavaScript", "HTML", "CSS", "GitHub Pages"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/dunyarahim/mini-portfolio-generator" },
+        { "label": "Live", "href": "https://dunyarahim.github.io/mini-portfolio-generator/" }
+      ]
+    },
+    {
+      "name": "5-Day Weather Forecast CLI",
+      "description": "API-based CLI that fetches and prints a five-day forecast using OpenWeatherMap.",
+      "tags": ["Python", "API", "HTTP", "JSON"],
+      "links": [
+        { "label": "Repo", "href": "https://github.com/dunyarahim/5-Day-Weather-Forecast-Python-" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Data & IT Support Assistant",
+      "company": "University of Maryland, College Park",
+      "start": "April 2025",
+      "end": "September 2025",
+      "summary": "Worked with campus IT and data systems to support analytics tasks, troubleshoot technical issues, and assist with data processing and documentation for internal projects."
+    },
+    {
+      "role": "Research Intern",
+      "company": "Library of Congress",
+      "start": "Jun 2023",
+      "end": "Aug 2023",
+      "summary": "Conducted research on digital collections focused on metadata standards and digital preservation; performed data analysis to evaluate archival methods."
+    },
+    {
+      "role": "IT Support Intern",
+      "company": "Montgomery College",
+      "start": "Aug 2021",
+      "end": "Dec 2021",
+      "summary": "Troubleshot hardware and software issues; supported IT systems management; improved user experience."
+    }
+  ],
+  "contact": [
+    { "label": "Email", "href": "mailto:dunyarahimm@gmail.com" },
+    { "label": "Portfolio", "href": "https://dunyarahim.github.io/mini-portfolio-generator/" }
+  ]
+}
+
