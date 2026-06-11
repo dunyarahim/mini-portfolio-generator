@@ -15,6 +15,12 @@
   ],
   "projects": [
     {
+      "name": "Gun Violence in America – Interactive Tableau Dashboard & Story",
+      "description": "Built a multi-sheet Tableau workbook and story analyzing national incident data: casualty trends over time, casualties by incident type, and victim demographics by age. Created comparative views (Top States/Cities by Casualties) and an analytical \"Who Is Most Affected?\" dashboard to translate raw data into a clear narrative for stakeholders.",
+      "tags": ["Tableau", "SQL", "Data Visualization"],
+      "links": []
+    },
+    {
       "name": "Pinterest Engagement CLI",
       "description": "Analyzes engagement trends (likes, comments) from CSV using SQLite and Matplotlib.",
       "tags": ["Python", "SQLite", "Matplotlib", "CLI"],
@@ -58,11 +64,11 @@
   ],
   "experience": [
     {
-      "role": "IT & Help Desk Support Assistant",
+      "role": "IT & Systems Support Administrator",
       "company": "University of Maryland, College Park",
       "start": "April 2025",
       "end": "September 2025",
-      "summary": "Provided Tier I/II technical support within campus IT systems, assisting users with troubleshooting, system access, and documentation of technical issues."
+      "summary": "Used SQL Server, Excel, and Active Directory to deliver Tier I/II Windows Server support, document incidents and configurations, and report on technical issues to support data-driven decisions."
     },
     {
       "role": "Research Intern",
